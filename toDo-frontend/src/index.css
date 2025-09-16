@@ -1,1 +1,11 @@
 @import "tailwindcss";
+
+
+body{
+    @apply text-white;
+    background: linear-gradient(135deg, #0a0a0a, #1a1a1a, #000000);
+    min-height: 100vh;
+    background-attachment: fixed; /* makes it stay put while scrolling */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
